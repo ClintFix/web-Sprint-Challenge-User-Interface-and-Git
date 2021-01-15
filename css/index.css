@@ -54,17 +54,20 @@
     box-sizing: border-box;
 }
 
+/* Page Height & Default Font */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
+/* Default Heading Sizes */
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
+/* Paragraph line spacing */
 p {
     line-height: 1.4;
 }
@@ -83,6 +86,9 @@ nav {
     margin-bottom: 40px;
 }
 
+.logo {
+    padding-top:20px;
+}
 .navLinks {
     margin-left: 70px;
     display: flex;
@@ -123,8 +129,6 @@ nav {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
-
 /* End Section 1 layout and style */
 
 /* Section 2 layout and style */
@@ -195,7 +199,6 @@ nav {
 #box10 {
     background-color: dodgerblue;
 }
-
 /* End Box Color */
 /* End Box sizing and layout */
 /* End Section 2 layout and style */
@@ -238,6 +241,7 @@ footer nav a {
 /* End Footer styling */
 
 /* ABOUT PAGE STYLING */
+/* ABOUT PAGE STYLING */
 
 /* About Summary */
 .top-content-about {
@@ -264,7 +268,7 @@ footer nav a {
 }
 
 .cards {
-    width: 49%;
+    flex-basis: 49%;
     margin-bottom: 20px;
     padding-bottom: 30px;
     border-bottom: 1px dashed black;
@@ -286,7 +290,9 @@ footer nav a {
     border-radius: 10px;
     color: black;
 }
+/* End About Card Styling and Layout */
 
+/* Bottom Section Styleing */
 .bottom-content-about {
     margin: 0 auto;
     width: 95%;
