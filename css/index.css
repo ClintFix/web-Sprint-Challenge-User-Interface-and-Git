@@ -239,6 +239,7 @@ footer nav a {
 
 /* ABOUT PAGE STYLING */
 
+/* About Summary */
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
@@ -248,7 +249,46 @@ footer nav a {
 }
 
 .top-content-about .text-container-about {
-    width: 90%;
-    padding: 0 1%;
+    width: 95%;
     padding-bottom: 20px;  
+}
+
+/* About Card Styling and Layout */
+
+.aboutCards {
+    width: 0 auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 49%;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.cards img {
+    margin-bottom: 10px;
+}
+
+.cards p {
+    margin-bottom: 30px;
+}
+
+.learnMoreLink {
+    text-decoration: none;
+    height: 50px;
+    padding: 8px 25px 8px;
+    border: 2px black solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.bottom-content-about {
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 30px;
 }
