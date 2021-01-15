@@ -236,6 +236,7 @@ footer nav {
 
 footer nav a {
     color: white;
+    opacity: 60%;
     text-decoration: none;
 }
 /* End Footer styling */
